@@ -801,9 +801,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/odm/firmware/aw8697_old_steady_test_RTP_52_233Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_old_steady_test_RTP_52_233Hz.bin \
     vendor/oneplus/sm8250-common/proprietary/odm/firmware/aw8697_old_steady_test_RTP_52_234Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_old_steady_test_RTP_52_234Hz.bin \
     vendor/oneplus/sm8250-common/proprietary/odm/firmware/aw8697_old_steady_test_RTP_52_235Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_old_steady_test_RTP_52_235Hz.bin \
-    vendor/oneplus/sm8250-common/proprietary/odm/firmware/aw8697_realme_its_realme_RTP_161_235Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_its_realme_RTP_161_235Hz.bin \
-    vendor/oneplus/sm8250-common/proprietary/odm/firmware/aw8697_realme_jingle_RTP_163_235Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_jingle_RTP_163_235Hz.bin \
-    vendor/oneplus/sm8250-common/proprietary/odm/firmware/aw8697_realme_tune_RTP_162_235Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_realme_tune_RTP_162_235Hz.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/aw8697_oneplus_its_oneplus_RTP_161_235Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_oneplus_its_oneplus_RTP_161_235Hz.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/aw8697_oneplus_jingle_RTP_163_235Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_oneplus_jingle_RTP_163_235Hz.bin \
+    vendor/oneplus/sm8250-common/proprietary/odm/firmware/aw8697_oneplus_tune_RTP_162_235Hz.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_oneplus_tune_RTP_162_235Hz.bin \
     vendor/oneplus/sm8250-common/proprietary/odm/firmware/aw8697_reserved_108.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_reserved_108.bin \
     vendor/oneplus/sm8250-common/proprietary/odm/firmware/aw8697_reserved_109.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_reserved_109.bin \
     vendor/oneplus/sm8250-common/proprietary/odm/firmware/aw8697_rtp.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_rtp.bin \
@@ -2252,14 +2252,11 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/5_version_update_ecc_table.sql \
     vendor/oneplus/sm8250-common/proprietary/vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/6_version_update_ecc_table.sql \
     vendor/oneplus/sm8250-common/proprietary/vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/7_version_update_ecc_table.sql \
-    vendor/oneplus/sm8250-common/proprietary/odm/lib64/lib-virtual-modem-protos.so:$(TARGET_COPY_OUT_ODM)/lib64/lib-virtual-modem-protos.so \
-    vendor/oneplus/sm8250-common/proprietary/odm/lib64/libcommcenterfw.so:$(TARGET_COPY_OUT_ODM)/lib64/libcommcenterfw.so \
-    vendor/oneplus/sm8250-common/proprietary/odm/lib64/libcommcenterutils.so:$(TARGET_COPY_OUT_ODM)/lib64/libcommcenterutils.so \
-    vendor/oneplus/sm8250-common/proprietary/odm/lib64/libdmtp-protos-lite.so:$(TARGET_COPY_OUT_ODM)/lib64/libdmtp-protos-lite.so \
-    vendor/oneplus/sm8250-common/proprietary/odm/lib64/libdmtpclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libdmtpclient.so \
-    vendor/oneplus/sm8250-common/proprietary/odm/lib64/vendor.oplus.hardware.communicationcenter_compat@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.communicationcenter_compat@1.0.so \
-
-
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib/libprotobuf-cpp-full-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-full-3.9.1.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib/libprotobuf-cpp-lite-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-lite-3.9.1.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libprotobuf-cpp-lite-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-lite-3.9.1.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libprotobuf-cpp-full-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-full-3.9.1.so
+    
 PRODUCT_PACKAGES += \
     libfastcvopt \
     libthermalclient \
