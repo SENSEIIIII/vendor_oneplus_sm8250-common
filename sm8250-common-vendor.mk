@@ -1641,7 +1641,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libsymphony-cpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsymphony-cpu.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libsymphonypower.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsymphonypower.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libtriplecam_image_optical_zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtriplecam_image_optical_zoom.so \
+    vendor/oneplus/sm8250-common/proprietary/vendor/lib64/liboppojpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboppojpeg.so \
     vendor/oneplus/sm8250-common/proprietary/vendor/lib64/libyuv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libyuv2.so
+    
 
 PRODUCT_PACKAGES += \
     btaudio_offload_if \
